@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+header img {
+  height: 50px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+.hero button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.featured-products,
+.newsletter,
+.product-list,
+.about-section {
+  padding: 20px;
+}
+.featured-products h2,
+.newsletter h2,
+.about-section h2 {
+  text-align: center;
+}
+.featured-products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.featured-products div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+.newsletter {
+  text-align: center;
+}
+.newsletter input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+.newsletter button {
+  padding: 10px 20px;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.product-list div {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer div {
+  flex: 1;
+  padding: 10px;
+}
